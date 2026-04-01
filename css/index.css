@@ -1,0 +1,70 @@
+body {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-image: url("/images/home/concert-bg.jpg");
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	flex: 1;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.85);
+}
+
+.centered-text {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 75vh;
+}
+
+.navbar {
+	padding: 15px 0;
+	background-color: White;
+}
+
+.navbar-brand {
+	font-size: 28px;
+}
+
+.navbar-nav {
+	font-size: 19px;
+}
+
+.table {
+	width: 100%;
+	border: 2px solid #000;
+	border-collapse: collapse;
+}
+
+.footer {
+	background: #343a40;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.single-main {
+	text-align: center;
+}
+
+.single-img {
+	max-width: 50%;
+	height: auto;
+	display: block;
+	margin: 0 auto; 
+	border: 2px solid #ddd; 
+	padding: 5px; /* Add padding to the border */
+}
+
+.single-p {
+	margin-bottom: 1.5rem;
+}
+
+.center {
+	text-align: center;
+	align-items: center;
+}
